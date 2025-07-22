@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="horizontal">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <!-- Items inside the horizontal scroll -->
+                <ImageView
+                    android:src="@drawable/sample_img_1"
+                    android:layout_width="220dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="8dp" />
+
+                <ImageView
+                    android:src="@drawable/sample_img_2"
+                    android:layout_width="220dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="8dp" />
+
+                <ImageView
+                    android:src="@drawable/sample_img_3"
+                    android:layout_width="220dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="8dp" />
+
+                <!-- Add more views here -->
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:text="Recommended for You"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="horizontal">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <!-- Items inside the horizontal scroll -->
+                <ImageView
+                    android:src="@drawable/sample_img_1"
+                    android:layout_width="220dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="8dp" />
+
+                <ImageView
+                    android:src="@drawable/sample_img_2"
+                    android:layout_width="220dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="8dp" />
+
+                <ImageView
+                    android:src="@drawable/sample_img_3"
+                    android:layout_width="220dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="8dp" />
+
+                <!-- Add more views here -->
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:text="Sale Up to 50%"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="horizontal">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <!-- Items inside the horizontal scroll -->
+                <ImageView
+                    android:src="@drawable/sample_img_1"
+                    android:layout_width="220dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="8dp" />
+
+                <ImageView
+                    android:src="@drawable/sample_img_2"
+                    android:layout_width="220dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="8dp" />
+
+                <ImageView
+                    android:src="@drawable/sample_img_3"
+                    android:layout_width="220dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="8dp" />
+
+                <!-- Add more views here -->
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
