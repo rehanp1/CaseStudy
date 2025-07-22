@@ -41,7 +41,7 @@
                     android:layout_height="120dp"
                     android:layout_marginEnd="8dp" />
 
-                <!-- Add more views here -->
+                
             </LinearLayout>
         </HorizontalScrollView>
 
@@ -84,7 +84,7 @@
                     android:layout_height="120dp"
                     android:layout_marginEnd="8dp" />
 
-                <!-- Add more views here -->
+                
             </LinearLayout>
         </HorizontalScrollView>
 
@@ -126,7 +126,7 @@
                     android:layout_height="120dp"
                     android:layout_marginEnd="8dp" />
 
-                <!-- Add more views here -->
+                
             </LinearLayout>
         </HorizontalScrollView>
 
